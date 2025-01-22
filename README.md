@@ -40,6 +40,12 @@ local ciphertext = slowAES:encrypt(plaintext, mode, key, iv)
 local decrypted = slowAES:decrypt(ciphertext, mode, key, iv)
 ```
 
+### Luarocks
+
+```install
+luarocks install slowaes
+```
+
 ## Requirements
 
 - Lua 5.3 or later.
