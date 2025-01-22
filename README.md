@@ -42,7 +42,7 @@ local decrypted = slowAES:decrypt(ciphertext, mode, key, iv)
 
 ### Luarocks
 
-```install
+```batch
 luarocks install slowaes
 ```
 
