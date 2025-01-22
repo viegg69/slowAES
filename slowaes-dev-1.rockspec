@@ -1,7 +1,7 @@
 package = "slowAES"
 version = "dev-1"
 source = {
-   url = "git+https://github.com/viegg69/slowAES"
+   url = "git+https://github.com/viegg69/slowAES.git"
 }
 description = {
    detailed = "`slowAES` is an open-source library written in Lua that provides encryption and decryption capabilities based on the AES (Advanced Encryption Standard) algorithm.",
@@ -17,3 +17,4 @@ build = {
       aes = "aes.lua"
    }
 }
+
