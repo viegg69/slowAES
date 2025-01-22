@@ -8,6 +8,9 @@ description = {
    homepage = "https://github.com/viegg69/slowAES",
    license = "MIT"
 }
+dependencies = {
+	"lua >= 5.3"
+}
 build = {
    type = "builtin",
    modules = {
